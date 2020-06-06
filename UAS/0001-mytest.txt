@@ -1,0 +1,32 @@
+Script started on 2020-06-06 17:46:57+07:00 [TERM="rxvt-256color" TTY="/dev/pts/2" COLUMNS="108" LINES="25"]
+]0;dimas@okto-swift:~/Projects/OS/os201/UAS[dimas@okto-swift UAS]$ PS1="$ "
+]0;dimas@okto-swift:~/Projects/OS/os201/UAS$ echo $GitHubUser
+lepiku
+]0;dimas@okto-swift:~/Projects/OS/os201/UAS$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+]0;dimas@okto-swift:~/Projects/OS/os201/UAS$ eval $PSTAMP
+200606-174718-db4b-UAS/> 
+]0;dimas@okto-swift:~/Projects/OS/os201/UAS$ PS1="\$(eval \$PSTAMP)"
+]0;dimas@okto-swift:~/Projects/OS/os201/UAS200606-174724-cc1b-UAS/> date
+Sat 06 Jun 2020 05:47:27 PM WIB
+]0;dimas@okto-swift:~/Projects/OS/os201/UAS200606-174727-c712-UAS/> gpg2-[K --list-keys
+/home/dimas/.gnupg/pubring.kbx
+------------------------------
+pub   rsa2048 2010-02-11 [SC]
+      1C61A2656FB57B7E4DE0F4C1FC918B335044912E
+uid           [ unknown] Dropbox Automatic Signing Key <linux@dropbox.com>
+
+pub   rsa4096 2020-06-06 [SC] [expires: 2020-06-20]
+      1AA95CAFFB29A031A194029BABF080C57DC3D3E4
+uid           [ultimate] Muhammad Oktoluqman Fakhrianto (gpgkey1) <muhammad.oktoluqman@ui.ac.id>
+sub   rsa4096 2020-06-06 [E] [expires: 2020-06-20]
+
+pub   rsa4096 2020-02-13 [SC] [expires: 2021-02-12]
+      B4507B533F7F22840BD8E93ED0F5DBDD67DF6DDE
+uid           [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   rsa4096 2020-02-13 [E] [expires: 2021-02-12]
+
+]0;dimas@okto-swift:~/Projects/OS/os201/UAS200606-174734-2d03-UAS/> exit
+exit
+
+Script done on 2020-06-06 17:47:38+07:00 [COMMAND_EXIT_CODE="0"]
