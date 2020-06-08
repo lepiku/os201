@@ -26,7 +26,7 @@ pub   rsa4096 2020-02-13 [SC] [expires: 2021-02-12]
 uid           [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
 sub   rsa4096 2020-02-13 [E] [expires: 2021-02-12]
 
-]0;dimas@okto-swift:~/Projects/OS/os201/UAS200606-174734-2d03-UAS/> exit
+200606-174734-2d03-UAS/> exit
 exit
 
 Script done on 2020-06-06 17:47:38+07:00 [COMMAND_EXIT_CODE="0"]
